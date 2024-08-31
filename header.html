@@ -1,0 +1,148 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+
+<div style="
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background: linear-gradient(45deg, #1a1a1a 0%, #333333 100%);
+      padding: 24px;
+      gap: 24px;
+      border-radius: 8px;
+    ">
+  <div style="display: flex; flex-direction: column; align-items: center; gap: 16px;">
+    <div style="display: flex; flex-direction: column; gap: 8px;">
+      <h1 style="
+        font-size: 48px;
+        color: #fafafa;
+        margin: 0;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+          'Lucida Sans', Arial, sans-serif;
+      ">
+        Sapiens: Depth Estimation
+      </h1>
+      <h2 style="
+        font-size: 24px;
+        color: #fafafa;
+        margin: 0;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+          'Lucida Sans', Arial, sans-serif;
+      ">
+        ECCV 2024 (Oral)
+      </h2>
+      <p style="
+        font-size: 14px;
+        color: #fafafa;
+        margin: 8px 0 0;
+        opacity: 0.7;
+      ">
+        Credit: Space modified from <a href="https://huggingface.co/spaces/fashn-ai/sapiens-body-part-segmentation" style="color: #3273dc;">fashn-ai</a>
+      </p>
+    </div>
+  </div>
+
+  <p style="
+      margin: 0;
+      line-height: 1.6rem;
+      font-size: 16px;
+      color: #fafafa;
+      opacity: 0.8;
+    ">
+    Meta presents Sapiens, foundation models for human tasks pretrained on 300 million human images. This demo showcases the finetuned depth model.<br />
+  </p>
+
+  <div class="column has-text-centered">
+    <div class="publication-links">
+      <!-- PDF Link. -->
+      <span class="link-block">
+        <a href="https://arxiv.org/abs/2408.12569"
+           class="external-link button is-normal is-rounded is-dark">
+          <span class="icon">
+            <i class="fas fa-file-pdf"></i>
+          </span>
+          <span>arXiv</span>
+        </a>
+      </span>
+      <!-- Code Link. -->
+      <span class="link-block">
+        <a href="https://github.com/facebookresearch/sapiens"
+           class="external-link button is-normal is-rounded is-dark">
+          <span class="icon">
+            <i class="fab fa-github"></i>
+          </span>
+          <span>Code</span>
+        </a>
+      </span>
+      <!-- Meta Link. -->
+      <span class="link-block">
+        <a href="https://about.meta.com/realitylabs/codecavatars/sapiens/"
+           class="external-link button is-normal is-rounded is-dark">
+          <span class="icon">
+            <svg width="16" height="16" viewBox="0 0 32 32" id="Camada_1" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <style type="text/css">
+                .st0{fill:#FFFFFF;}
+              </style>
+              <path d="M6,2h20c2.2,0,4,1.8,4,4v20c0,2.2-1.8,4-4,4H6c-2.2,0-4-1.8-4-4V6C2,3.8,3.8,2,6,2z"/>
+              <path class="st0" d="M7.4,18.6c0-3.6,1.8-7.2,3.9-7.2c1.1,0,2.1,0.7,3.6,2.8c-1.4,2.1-2.2,3.5-2.2,3.5c-1.9,2.9-2.5,3.6-3.6,3.6  C8,21.2,7.4,20.3,7.4,18.6 M19.7,17.3l-1.3-2.1c-0.3-0.6-0.7-1.1-1-1.6c1.2-1.8,2.1-2.7,3.3-2.7c2.4,0,4.3,3.5,4.3,7.8  c0,1.6-0.5,2.6-1.6,2.6C22.2,21.2,21.7,20.5,19.7,17.3 M16.3,12.1c-1.8-2.2-3.2-3.1-5-3.1C7.7,9,5,13.7,5,18.6c0,3.1,1.5,5,4,5  c1.8,0,3.1-0.8,5.4-4.9c0,0,1-1.7,1.6-2.9c0.2,0.4,0.5,0.8,0.7,1.2l1.1,1.8c2.1,3.5,3.3,4.7,5.4,4.7c2.4,0,3.8-2,3.8-5.1  c0-5.2-2.8-9.5-6.2-9.5C19,9,17.6,10.4,16.3,12.1"/>
+            </svg>
+          </span>
+          <span>Meta</span>
+        </a>
+      </span>
+      <!-- Results Link. -->
+      <span class="link-block">
+        <a href="https://rawalkhirodkar.github.io/sapiens"
+          class="external-link button is-normal is-rounded is-dark">
+          <span class="icon">
+            <i class="fas fa-globe"></i>
+          </span>
+          <span>Results</span>
+        </a>
+      </span>
+    </div>
+  </div>
+
+  <!-- New Demo Links -->
+  <div class="column has-text-centered">
+    <div class="publication-links">
+      <span class="link-block">
+        <a href="https://huggingface.co/spaces/facebook/sapiens_pose"
+          class="external-link button is-normal is-rounded is-dark">
+          <span class="icon">
+            <i class="fas fa-user"></i>
+          </span>
+          <span>Demo-Pose</span>
+        </a>
+      </span>
+      <span class="link-block">
+        <a href="https://huggingface.co/spaces/facebook/sapiens_seg"
+          class="external-link button is-normal is-rounded is-dark">
+          <span class="icon">
+            <i class="fas fa-puzzle-piece"></i>
+          </span>
+          <span>Demo-Seg</span>
+        </a>
+      </span>
+      <span class="link-block">
+        <a href="https://huggingface.co/spaces/facebook/sapiens_depth"
+          class="external-link button is-normal is-rounded is-dark">
+          <span class="icon">
+            <i class="fas fa-cube"></i>
+          </span>
+          <span>Demo-Depth</span>
+        </a>
+      </span>
+      <span class="link-block">
+        <a href="https://huggingface.co/spaces/facebook/sapiens_normal"
+          class="external-link button is-normal is-rounded is-dark">
+          <span class="icon">
+            <i class="fas fa-vector-square"></i>
+          </span>
+          <span>Demo-Normal</span>
+        </a>
+      </span>
+    </div>
+  </div>
+</div>
